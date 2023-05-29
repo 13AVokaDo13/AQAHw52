@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c5fd75-871d-42c1-8e9f-7012913f49dd" name="Changes" comment="commit with 5 success tests" />
+    <list default="true" id="e5c5fd75-871d-42c1-8e9f-7012913f49dd" name="Changes" comment="commit with 5 success tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AutoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AutoTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,10 +179,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AutoTests.shouldSuccessfullyLoginWithActiveRegisteredUser" />
-        <item itemvalue="Gradle.AutoTests.shouldGetErrorIfErrorLogin" />
-        <item itemvalue="Gradle.AutoTests.shouldGetErrorIfErrorPassword" />
         <item itemvalue="Gradle.AutoTests.shouldGetErrorIfBlockedUser" />
+        <item itemvalue="Gradle.AutoTests.shouldGetErrorIfErrorPassword" />
+        <item itemvalue="Gradle.AutoTests.shouldGetErrorIfErrorLogin" />
+        <item itemvalue="Gradle.AutoTests.shouldSuccessfullyLoginWithActiveRegisteredUser" />
         <item itemvalue="Gradle.AutoTests.shouldGetErrorIfNotRegisteredUser" />
       </list>
     </recent_temporary>

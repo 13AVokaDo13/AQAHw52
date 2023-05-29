@@ -47,7 +47,7 @@ public class AutoTests {
         $("[data-test-id=password] input").setValue(blockedUser.getPassword());
         $("[data-test-id=action-login]").click();
         $("[data-test-id=error-notification] .notification__content")
-                .shouldHave(Condition.text("Ошибка! Пользователь заблокирован"))
+                .shouldHave(Condition.text("Ошибка! Неверно указан логин или пароль"))
                 .shouldBe(Condition.visible);
     }
 
