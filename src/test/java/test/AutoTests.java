@@ -42,12 +42,12 @@ public class AutoTests {
     @Test
     @DisplayName("Should get error message if login with blocked registered user")
     void shouldGetErrorIfBlockedUser(){
-        var blockedUser = getUser("blocked");
+        var blockedUser = getRegisteredUser("blocked");
         $("[data-test-id=login] input").setValue(blockedUser.getLogin());
         $("[data-test-id=password] input").setValue(blockedUser.getPassword());
         $("[data-test-id=action-login]").click();
         $("[data-test-id=error-notification] .notification__content")
-                .shouldHave(Condition.text("Ошибка! Неверно указан логин или пароль"))
+                .shouldHave(Condition.text("Ошибка! Пользователь заблокирован"))
                 .shouldBe(Condition.visible);
     }
 
